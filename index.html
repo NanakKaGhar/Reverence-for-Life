@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Albert Schweitzer & Bhai Kanhaiya: Reverence for Life in Modern India</title>
+    <meta name="description" content="Exploring Albert Schweitzer's 'Reverence for Life' through the lens of Bhai Kanhaiya Ji's radical seva, and its urgent relevance to modern India's moral crisis and paradoxes.">
+    <meta name="keywords" content="Albert Schweitzer, Bhai Kanhaiya Ji, Reverence for Life, Seva, Sikhism, Ethics, India 2025, Moral Philosophy, Compassion, Climate, Inequality, sewa, Article for India, Election Issues, Solutions, Solutions for India, Nanak Ka Ghar">
+    <meta name="author" content="Nanak Ka Ghar">
+    <link rel="canonical" href="https://nanakkaghar.org/">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Schweitzer and Bhai Kanhaiya: Healing India's Paradoxes">
+    <meta property="og:description" content="From the battlefields of Punjab to the jungles of Africa: A legacy of radical universal compassion amid India's rapid progress and deep fractures.">
+    <meta property="og:image" content="https://placehold.co/1200x630/1c1917/FFF?text=Reverence+for+Life">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Schweitzer and Bhai Kanhaiya: Radical Compassion for India's Future">
+    <meta property="twitter:description" content="Exploring the moral vacuum of modern civilization through the lens of Seva and Reverence for Life, addressing climate collapse, inequality, and urban suffering.">
+    <meta property="twitter:image" content="https://placehold.co/1200x630/1c1917/FFF?text=Reverence+for+Life">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        stone: { 850: '#1c1917' },
+                        saffron: { 500: '#ff9933' } // Added for subtle highlighting related to heritage
+                    },
+                    typography: (theme) => ({
+                        DEFAULT: {
+                            css: {
+                                color: theme('colors.gray.700'),
+                                h2: { fontFamily: theme('fontFamily.serif'), color: theme('colors.gray.900') },
+                                h3: { fontFamily: theme('fontFamily.serif'), color: theme('colors.gray.800') },
+                                'blockquote p:first-of-type::before': false,
+                                'blockquote p:last-of-type::after': false,
+                            }
+                        }
+                    })
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .hero-pattern {
+            background-color: #1c1917;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        /* Improved contrast for dark sections */
+        .kanhaiya-section .prose-invert {
+            color: #f5f5f4 !important; /* Near-white for better readability on dark bg */
+        }
+        .kanhaiya-section .prose-invert p {
+            color: #f5f5f4 !important;
+        }
+        .kanhaiya-section .prose-invert strong {
+            color: #ffffff !important;
+        }
+        .kanhaiya-section blockquote p {
+            color: #ffffff !important;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-gray-800 antialiased">
+
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-stone-100">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="flex justify-between items-center h-16">
+                <a href="#" class="font-serif font-bold text-xl text-stone-900 tracking-tight flex items-center">
+                    <i class="fas fa-hand-holding-water mr-2 text-stone-600"></i>
+                    <span class="hidden sm:inline">Reverence for Life</span>
+                    <span class="sm:hidden">Reverence</span>
+                </a>
+                
+                <div class="hidden lg:flex space-x-8 text-sm font-medium text-stone-600">
+                    <a href="#intro" class="hover:text-stone-900 transition-colors">Introduction</a>
+                    <a href="#philosophy" class="hover:text-stone-900 transition-colors">Philosophy</a>
+                    <a href="#paradox" class="hover:text-stone-900 transition-colors">India's Paradox</a>
+                    <a href="#kanhaiya" class="hover:text-stone-900 transition-colors">Bhai Kanhaiya</a>
+                    <a href="#discussion" class="hover:text-stone-900 transition-colors">Compassion in Action</a>
+                    <a href="#vision" class="hover:text-stone-900 transition-colors">A Healing Vision</a>
+                </div>
+
+                <button id="mobile-menu-button" class="lg:hidden p-2 text-stone-600 hover:bg-stone-100 rounded-md" aria-label="Toggle Menu">
+                    <i class="fas fa-bars text-lg"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-stone-200 shadow-lg">
+            <div class="px-4 pt-2 pb-4 space-y-1">
+                <a href="#intro" class="block py-3 px-4 text-stone-600 hover:bg-stone-50 rounded-lg font-medium">Introduction</a>
+                <a href="#philosophy" class="block py-3 px-4 text-stone-600 hover:bg-stone-50 rounded-lg font-medium">Philosophy</a>
+                <a href="#paradox" class="block py-3 px-4 text-stone-600 hover:bg-stone-50 rounded-lg font-medium">India's Paradox</a>
+                <a href="#kanhaiya" class="block py-3 px-4 text-stone-600 hover:bg-stone-50 rounded-lg font-medium">Bhai Kanhaiya's Legacy</a>
+                <a href="#discussion" class="block py-3 px-4 text-stone-600 hover:bg-stone-50 rounded-lg font-medium">Compassion in Action</a>
+                <a href="#vision" class="block py-3 px-4 text-stone-600 hover:bg-stone-50 rounded-lg font-medium">A Healing Vision</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative hero-pattern py-24 md:py-40 px-4 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/80 to-stone-900/40"></div>
+        <div class="relative container mx-auto max-w-4xl text-center" data-aos="fade-up" data-aos-duration="1000">
+            <span class="inline-block text-saffron-500 font-semibold tracking-[0.2em] uppercase text-sm mb-4">Moral Philosophy & Seva</span>
+            <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
+                The Saint of Today <br>and India's Moral Paradox
+            </h1>
+            <p class="text-xl md:text-2xl text-stone-300 mb-10 font-light max-w-2xl mx-auto">
+                India stands on the edge of a decade filled with paradox—rapid progress and deep fractures, technological brilliance and ecological exhaustion, digital revolution and moral confusion. From the jungles of Lambaréné to the battlefields of Punjab: A legacy of radical compassion.
+            </p>
+            <a href="#intro" class="inline-flex items-center gap-2 bg-white text-stone-900 px-8 py-4 rounded-full font-semibold hover:bg-saffron-500 hover:text-white transition-all transform hover:scale-105 shadow-xl">
+                Begin Reading <i class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="intro" class="py-20 md:py-32">
+            <article class="container mx-auto px-4 max-w-3xl prose prose-lg md:prose-xl prose-stone">
+                <h2 class="text-center font-serif" data-aos="fade-up">Echoes of a Life Renounced</h2>
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <p class="lead first-letter:text-5xl first-letter:font-serif first-letter:mr-1 first-letter:float-left">The next ten years will test not just India’s economic strength, but its ethical imagination: how it responds to climate collapse, inequality, urban suffering, and the silent pain of millions left unseen. In this moment, two souls from different centuries — Bhai Kanhaiya Ji, the Sikh sevadar who offered water to friend and foe alike on the battlefield, and Albert Schweitzer, the physician who preached “Reverence for Life” — whisper a timeless truth: Compassion is not charity. It is clarity — seeing all beings as one shared breath.</p>
+                    <p>In the shadowed corridors of history, where the clamor of empires fades into whispers, there stands a figure whose silhouette defies the relentless march of self-advancement: <strong>Albert Schweitzer</strong>. Born in 1875 to the genteel hum of Alsatian villages, Schweitzer could have lingered in the rarefied air of European academia. Yet, at thirty, gripped by an inexorable call, he renounced it all. He trained as a physician, not for prestige but for purpose, and in 1913, sailed to the fevered heart of French Equatorial Africa.</p>
+                    <p>He died in 1965, Nobel Peace Prize in hand, but his true legacy was etched not in gold, but in the quiet surrender of a life to the world's unspoken pleas. Why, then, in an era where satellites pierce the heavens, has the flame of such moral audacity dimmed? Schweitzer's story haunts us not as relic, but as rebuke—a mirror to our gilded cages, especially in a nation like India, where progress races ahead while fractures deepen.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="philosophy" class="py-20 bg-stone-100 border-y border-stone-200">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="font-serif text-3xl md:text-5xl font-bold text-stone-900 mb-6">The Philosophy of Reverence for Life</h2>
+                    <p class="text-lg text-stone-600 max-w-2xl mx-auto">Conceived in 1915 amid the thunder of World War I, this was no abstract theorem but a visceral imperative—one that echoes Bhai Kanhaiya Ji's battlefield clarity, urging us to extend compassion beyond borders of tribe, nation, or species.</p>
+                </div>
+                
+                <div class="bg-white p-8 md:p-12 rounded-2xl shadow-sm" data-aos="zoom-in">
+                    <blockquote class="not-italic border-l-4 border-stone-900 pl-6 my-8">
+                        <p class="font-serif text-2xl md:text-3xl leading-relaxed text-stone-800">
+                            "Until he extends the circle of his compassion to all living things, man will not himself find peace."
+                        </p>
+                        <footer class="text-stone-500 mt-4 font-medium">— Albert Schweitzer, <em>Civilization and Ethics</em></footer>
+                    </blockquote>
+                    <div class="prose prose-lg prose-stone max-w-none">
+                        <p>Reverence for Life demands we affirm every pulse of existence—not merely the human, but the ant's industrious crawl and the river's flow. In Lambaréné, this philosophy incarnated. Schweitzer toiled not as savior from afar, but as servant in the mire. His letters home brim with humility: <em>"I have given up all I had for this, but I have found more."</em> This ethic links seamlessly to Bhai Kanhaiya Ji's <em>seva</em>, transforming abstract reverence into acts that heal the fractured whole.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="paradox" class="py-20 md:py-32">
+            <div class="container mx-auto px-4 max-w-5xl">
+                <div class="max-w-3xl mx-auto prose prose-lg prose-stone mb-16 text-center">
+                    <h2 data-aos="fade-up">The Modern Paradox: Progress without Peace</h2>
+                    <p data-aos="fade-up">India exemplifies the 21st-century schism. Its economy, the world's fifth-largest, surges at 6.6% growth in 2025. Yet beneath this ascent festers a moral malaise—polluted air, overworked youth, neglected farmers, and fractured communities that Schweitzer and Kanhaiya would urge us to see as one shared breath.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+                    <div class="bg-red-50 p-6 rounded-xl border-l-4 border-red-500 hover:shadow-md transition-shadow" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-bold text-red-900">Air Crisis</h3>
+                            <i class="fas fa-smog text-red-400 text-xl"></i>
+                        </div>
+                        <p class="text-4xl font-bold text-red-600 mb-2">442</p>
+                        <p class="text-sm text-red-800 font-medium">Hazardous AQI (Delhi)</p>
+                    </div>
+                    <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-500 hover:shadow-md transition-shadow" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-bold text-blue-900">GDP Growth</h3>
+                            <i class="fas fa-chart-line text-blue-400 text-xl"></i>
+                        </div>
+                        <p class="text-4xl font-bold text-blue-600 mb-2">6.6%</p>
+                        <p class="text-sm text-blue-800 font-medium">Economic Surge (2025)</p>
+                    </div>
+                    <div class="bg-amber-50 p-6 rounded-xl border-l-4 border-amber-500 hover:shadow-md transition-shadow" data-aos="fade-up" data-aos-delay="300">
+                         <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-bold text-amber-900">Happiness</h3>
+                            <i class="fas fa-frown text-amber-400 text-xl"></i>
+                        </div>
+                        <p class="text-4xl font-bold text-amber-600 mb-2">#126</p>
+                        <p class="text-sm text-amber-800 font-medium">Global Ranking</p>
+                    </div>
+                    <div class="bg-emerald-50 p-6 rounded-xl border-l-4 border-emerald-500 hover:shadow-md transition-shadow" data-aos="fade-up" data-aos-delay="400">
+                         <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-bold text-emerald-900">Mental Strain</h3>
+                            <i class="fas fa-brain text-emerald-400 text-xl"></i>
+                        </div>
+                        <p class="text-4xl font-bold text-emerald-600 mb-2">13.7%</p>
+                        <p class="text-sm text-emerald-800 font-medium">Lifetime Prevalence</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden" data-aos="fade-up">
+                    <div class="px-6 py-4 bg-stone-900 text-white flex items-center gap-3">
+                        <i class="fas fa-balance-scale"></i>
+                        <h3 class="m-0 font-serif text-xl">India 2025: The Ethical Ledger</h3>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-stone-200">
+                            <thead class="bg-stone-50 text-stone-500 text-xs uppercase tracking-wider font-semibold">
+                                <tr>
+                                    <th class="px-6 py-4 text-left">Indicator</th>
+                                    <th class="px-6 py-4 text-left">Metric (2025)</th>
+                                    <th class="px-6 py-4 text-left">Schweitzer & Kanhaiya's Ethical Critique</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-stone-100">
+                                <tr>
+                                    <td class="px-6 py-4 font-medium text-stone-900">GDP Growth</td>
+                                    <td class="px-6 py-4 font-mono font-bold text-blue-600">6.6%</td>
+                                    <td class="px-6 py-4 text-stone-600 italic">Wealth without welfare mocks reverence; it accumulates but does not affirm the shared breath of all.</td>
+                                </tr>
+                                <tr class="bg-red-50/50">
+                                    <td class="px-6 py-4 font-medium text-stone-900">AQI (Delhi)</td>
+                                    <td class="px-6 py-4 font-mono font-bold text-red-600">442 (Hazardous)</td>
+                                    <td class="px-6 py-4 text-stone-600 italic">Air poisoned is life profaned—where is the doctor's oath or the sevadar's bowl to heal the commons?</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 font-medium text-stone-900">Gini Coefficient</td>
+                                    <td class="px-6 py-4 font-mono">25.5</td>
+                                    <td class="px-6 py-4 text-stone-600 italic">Equality's facade hides hunger; true measure is shared sustenance, seeing the Divine in the unseen.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kanhaiya" class="py-24 bg-stone-900 text-stone-300 relative overflow-hidden kanhaiya-section">
+            <div class="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none">
+                <i class="fas fa-khanda text-[50rem] -translate-x-1/4 -translate-y-1/4 absolute text-white"></i>
+            </div>
+
+            <div class="container mx-auto px-4 max-w-4xl relative z-10">
+                <article class="prose prose-lg prose-invert mx-auto">
+                    <h2 class="font-serif text-stone-50 text-center mb-12" data-aos="fade-up">A Spiritual Ancestor: Bhai Kanhaiya Ji</h2>
+                    
+                    <div data-aos="fade-up">
+                        <p class="lead text-xl text-stone-200">While Schweitzer's jungle hospital is a modern icon of service, it finds its truest spiritual ancestor in <strong>Bhai Kanhaiya Ji</strong>, the 17th-century Sikh devotee whose compassion knew no uniform. Reflect on how India’s modern challenges—polluted air, overworked youth, neglected farmers, and fractured communities—could be approached in the spirit of seva and reverence for life. Can Bhai Kanhaiya Ji’s water bowl on the battlefield become today’s solar panel, clean river, or free education for the child of a migrant worker?</p>
+                    </div>
+
+                    <div class="grid md:grid-cols-5 gap-8 my-12 items-center">
+                        <div class="md:col-span-2" data-aos="fade-right">
+                            <div class="bg-stone-800 p-6 rounded-xl border-l-4 border-saffron-500 shadow-2xl">
+                                <i class="fas fa-tint text-4xl text-blue-400 mb-4"></i>
+                                <h3 class="text-white font-serif text-2xl mb-2 mt-0">The Battlefield</h3>
+                                <p class="text-stone-400 text-sm mb-0">Amidst the fierce battles of 1704, Kanhaiya was seen serving water not just to wounded Sikh warriors, but to the Mughal soldiers they fought against.</p>
+                            </div>
+                        </div>
+                        <div class="md:col-span-3" data-aos="fade-left">
+                            <p>When Sikh soldiers complained of this "treason" to Guru Gobind Singh, Bhai Kanhaiya was summoned. His defense was simple, searing, and identical in spirit to Schweitzer's later revelation:</p>
+                            <blockquote class="border-l-4 border-saffron-500 pl-6 py-2 my-6 bg-stone-800/50 rounded-r-lg">
+                                <p class="font-serif text-2xl text-white leading-relaxed italic mb-2">
+                                    "I saw no Mughal or Sikh on the battlefield. I only saw the Divine Face in everyone. How could I deny You water?"
+                                </p>
+                                <footer class="text-saffron-500 not-italic font-semibold">— Bhai Kanhaiya Ji</footer>
+                            </blockquote>
+                            <p>This is <em>Reverence for Life</em> in its purest, most radical form. It is the precursor to the Red Cross and Lambaréné by centuries. Kanhaiya did not wait for peace to serve; he created peace in the act of serving. Can Schweitzer’s ethical call to "serve life wherever it is threatened" guide India’s policymakers, entrepreneurs, and citizens toward decisions that heal rather than exploit?</p>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-16" data-aos="fade-up">
+                        <h3 class="text-stone-50 font-serif mb-6">The Dormant Dharma</h3>
+                        <p>India holds this heritage in its soil. <em>Seva</em> (selfless service) still threads through its culture, from langars that feed millions to anonymous hands helping pilgrims. Yet, modern noise often drowns this ancient signal. The question Schweitzer poses to modern India is exactly the one Bhai Kanhaiya answered on the battlefield: <strong>Can we see the Divine face in the choking child, the clouded river, and the desperate farmer?</strong></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="discussion" class="py-20 md:py-32 bg-stone-50">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="font-serif text-3xl md:text-5xl font-bold text-stone-900 mb-6">Compassion in Action: Linking Seva and Reverence</h2>
+                    <p class="text-lg text-stone-600 max-w-2xl mx-auto">How can these timeless truths address India's fractures? Let us explore with examples, weaving the threads of ethical imagination into practical paths forward.</p>
+                </div>
+
+                <div class="space-y-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border-l-4 border-saffron-500">
+                        <h3 class="font-serif text-2xl font-bold mb-4 text-stone-900">Compassion-Based Leadership for Climate Anxiety and Unemployment</h3>
+                        <p class="prose prose-lg prose-stone">Imagine leaders inspired by Kanhaiya's impartial water bowl, deploying solar-powered job programs in drought-hit villages—training displaced farmers as green technicians, not as charity recipients, but as co-creators of resilient life. In urban centers, Schweitzer's reverence could birth "empathy audits" for corporations, mandating hires from marginalized youth while offsetting carbon footprints with community forests. This isn't policy; it's clarity—treating climate anxiety as a call to affirm the shared breath of earth and worker alike.</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border-l-4 border-blue-500">
+                        <h3 class="font-serif text-2xl font-bold mb-4 text-stone-900">A Culture of Seva Reshaping Healthcare, Technology, and Governance</h3>
+                        <p class="prose prose-lg prose-stone">In healthcare, envision AI-driven telemedicine langars, where tech volunteers—echoing Schweitzer's jungle clinic—deliver free diagnostics to migrant workers' children, blurring lines between healer and healed. Technology, often a tool of profit, could pivot to "seva-code": open-source apps for mental health check-ins in overworked factories, fostering governance that measures success not by GDP spikes, but by reduced urban suffering. Here, seva becomes systemic, reverence operational.</p>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border-l-4 border-emerald-500 mt-8">
+                        <h3 class="font-serif text-2xl font-bold mb-4 text-stone-900">The Spirit of Oneness: Uniting Innovation and Empathy</h3>
+                        <p class="prose prose-lg prose-stone">In a world obsessed with speed and profit, the spirit of oneness—not ideology—can fuse India's startups with empathy labs: entrepreneurs prototyping biodegradable packaging from farm waste, or VR simulations that let policymakers "feel" a farmer's despair. This union heals the moral confusion, turning digital revolution into dignified elevation, where innovation serves the silent pain of the unseen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vision" class="py-20 md:py-32">
+            <div class="container mx-auto px-4 max-w-3xl text-center">
+                <div class="inline-block p-4 bg-stone-100 rounded-full mb-8" data-aos="zoom-in">
+                     <i class="fas fa-hands-holding-circle text-5xl text-stone-700"></i>
+                </div>
+                <h2 class="font-serif text-4xl md:text-5xl font-bold mb-8" data-aos="fade-up">An India that Heals While It Builds</h2>
+                <article class="prose prose-lg prose-stone mx-auto" data-aos="fade-up" data-aos-delay="200">
+                    <p>My vision: An India where progress is not measured in GDP, but in the quiet dignity with which it uplifts its people, animals, and land. Rivers run clear as Kanhaiya's bowl, cities breathe with Schweitzer's reverence, and every policy whispers, "Thou art that—now act." Here, the saint of today emerges not as exception, but as ethic: a nation that builds bridges of compassion, healing fractures into a tapestry of shared breath. In this India, moral imagination triumphs, and the paradox dissolves into peace.</p>
+                    <p class="text-xl font-serif text-stone-900 font-bold leading-relaxed mt-12">
+                        "In denying self, we discover the sacred whole. And in that cherishing, perhaps, we find the saint within, whispering: <em>Thou art that—now act as if it were so.</em>"
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-950 text-stone-400 py-16 px-4 font-sans">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-12">
+                <h4 class="text-white font-serif text-xl mb-8 flex items-center gap-3 pb-4 border-b border-stone-800">
+                    <i class="fas fa-book-open"></i>
+                    Key Citations & Sources
+                </h4>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 text-sm">
+                    <li><a href="https://www.aqi.in/us/dashboard/india/delhi" target="_blank" class="hover:text-white transition-colors flex items-start gap-2"><i class="fas fa-external-link-alt mt-1 text-xs"></i> Delhi Air Quality Index (AQI) Dashboard</a></li>
+                    <li><a href="https://www.reuters.com/world/india/" target="_blank" class="hover:text-white transition-colors flex items-start gap-2"><i class="fas fa-external-link-alt mt-1 text-xs"></i> IMF India Growth Forecast 2025/26 (Reuters)</a></li>
+                    <li><a href="https://www.mhfaindia.com/" target="_blank" class="hover:text-white transition-colors flex items-start gap-2"><i class="fas fa-external-link-alt mt-1 text-xs"></i> India's Mental Health Landscape 2025</a></li>
+                    <li><a href="https://www.who.int/india/health-topics/mental-health" target="_blank" class="hover:text-white transition-colors flex items-start gap-2"><i class="fas fa-external-link-alt mt-1 text-xs"></i> WHO: Mental Health in India</a></li>
+                    <li><a href="https://worldpopulationreview.com/" target="_blank" class="hover:text-white transition-colors flex items-start gap-2"><i class="fas fa-external-link-alt mt-1 text-xs"></i> World Happiness Report 2025 Rankings</a></li>
+                    <li><a href="https://www.sikhiwiki.org/index.php/Bhai_Kanhaiya" target="_blank" class="hover:text-white transition-colors flex items-start gap-2"><i class="fas fa-external-link-alt mt-1 text-xs"></i> Legacy of Bhai Kanhaiya Ji</a></li>
+                    <li><a href="https://www.nobelprize.org/prizes/peace/1952/schweitzer/biographical/" target="_blank" class="hover:text-white transition-colors flex items-start gap-2"><i class="fas fa-external-link-alt mt-1 text-xs"></i> Nobel Prize: Albert Schweitzer Biography</a></li>
+                </ul>
+            </div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-stone-900">
+                <div class="text-stone-500 text-sm mb-4 md:mb-0">
+                    © <a href="https://nanakkaghar.org/"> Nanak Ka Ghar </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top" class="fixed bottom-6 right-6 bg-saffron-500 text-white p-4 rounded-full shadow-xl hover:bg-stone-800 transition-all opacity-0 pointer-events-none translate-y-10 z-50" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Init Animations
+        AOS.init({
+            once: true,
+            offset: 50,
+            duration: 800,
+            easing: 'ease-in-out-cubic'
+        });
+
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Back to Top Button
+        const backToTop = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 500) {
+                backToTop.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-10');
+            } else {
+                backToTop.classList.add('opacity-0', 'pointer-events-none', 'translate-y-10');
+            }
+        });
+    </script>
+</body>
+</html>
